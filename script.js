@@ -8,7 +8,6 @@ var interval;
 var timerRunning = false;
 
 // Add leading zero to numbers 9 or below (purely for aesthetics):
-//avinash shanker
 function leadingZero(time) {
   if(time <= 9){
     time = "0" + time;
